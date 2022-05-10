@@ -1,0 +1,86 @@
+body
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html
+{
+    background: linear-gradient(#e0d7df,#f5f3f2);
+}
+.NW
+{
+    position: relative;
+    top: 10em;
+    left: 50px;
+    padding-left: 50px;
+    margin: 0;
+    height: 35em;
+    width: 25%;
+    z-index: 2;
+    background:linear-gradient(#f7b33e,#fff838)
+}
+.N2W
+{
+    position: relative;
+    height: 70px;
+    width: 50%;
+    border: 1px solid yellow;
+    bottom:32.5em;
+    padding-left: 50px;
+    margin: 0;
+    left: 50px;
+    background: linear-gradient(#f7b33e,#fff838);
+}
+.Prénom-NE
+{
+    position: relative;
+    left:29em;
+    bottom: 18em;
+    padding-top: 30px;
+    padding-right: 20px;
+    margin: 0;
+    z-index: 1;
+}
+.Job-NE
+{
+    position:relative;
+    left:42em;
+    bottom: 24em;
+    padding-right: 20px;
+    margin: 0;
+    z-index: 1;
+}
+
+.Mid
+{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 15em;
+}
+.MainTitre
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 420px;
+    font-size: 90px;
+    left: 150px;
+}
+.SW
+{
+    background: linear-gradient(#f7b33e,#fff838);
+    position: relative;
+    height: 150px;
+    width: 60%;
+    left: 50px;
+    bottom: 10em;
+}
+.SE
+{
+    background: linear-gradient(#f7b33e,#fff838);
+    position: relative;
+    height: 50px;
+    width: 100px;
+    left: 65em;
+    bottom: 50px;
+}
