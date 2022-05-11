@@ -1,0 +1,44 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+header
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: #264757;
+}
+.MainTitle
+{
+    width: fit-content;
+    position: relative;
+    right: 115px;
+    font-size: 50px;
+    color: lightgray;
+}
+.insc
+{
+    position: absolute;
+    right: 5em;
+    top: 23em;
+}
+.co
+{
+    position: absolute;
+    left: 5em;
+    top: 23em;
+}
+.obligatoire
+{
+    color: red;
+}
+body
+{
+    color:#264757;
+    background-color: lightgrey;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion</title>
+    <link rel="icon" href="../Images/Sans_titre-removebg-preview.png">
+    <link rel="stylesheet" href="../Style/Co-Inscription.css">
+</head>
+<body>
+    <header>
+        <p class="Title">
+            <img src="../Images/Sans_titre-removebg-preview.png" alt="Icone" width="200" height="200">
+            <h1 class="MainTitle">
+                Délivrés
+            </h1>
+        </p>
+    </header>
+<div class="form">
+    <div>
+        <form action="#" method="get" class="co">
+            <h1>Connectez-Vous</h1> <br>
+            <label for="fname">Votre pseudo<span class="obligatoire">*</span>: </label> <br />
+            <input type="text" id="fname" name="fname" placeholder="Nom de famille :" required> <br /> <br>
+            <label for="prénom">Votre mot de passe <span class="obligatoire">*</span>:</label> <br />
+            <input type="text" id="prénom" name="prénom " placeholder="Prénom :" required> <br /> <br>
+            <button type="submit" name="submit">Je me connecte</button>
+        </form>
+    </div>
+    <div>
+        <form action="#" method="get" class="insc">
+            <h1>Pas de compte ? Inscrivez-vous</h1> <br>
+            <h2> <span class="oblig">champs obligatoires</span> <span class="obligatoire">*</span></h2> <br>
+            <label for="fname">Choissiez votre pseudo<span class="obligatoire">*</span>: </label> <br />
+            <input type="text" id="fname" name="fname" placeholder="Nom de famille :" required> <br /> <br>
+            <label for="prénom">Choissiez un mot de passe <span class="obligatoire">*</span>:</label> <br />
+            <input type="text" id="prénom" name="prénom " placeholder="Prénom :" required> <br /> <br>
+            <label for="numéro">Votre numéro de téléphone <span class="obligatoire">*</span>: </label> <br />
+            <input type="text" id="numéro" name="numéro" placeholder="06.05.02.03.01" required><br/> <br>
+            <label for="email">Adresse e-mail <span class="obligatoire">*</span>:</label> <br />
+            <input type="text" id="email" name="email" required> <br /> <br>
+            <label for="ville">Sélectionner la ville :</label> <br /> 
+            <select id="ville" name="ville" size="1" >
+                <option value="Lille">Lille</option>
+                <option value="Paris">Paris</option>
+                <option value="Bordeaux">Bordeaux</option>
+                <option value="Marseille">Marseille</option>
+                <option value="Nantes">Nantes</option>
+                <option value="Lyon">Lyon</option>
+                <option value="La Rochelle">La Rochelle</option>
+                <option value="Poitiers">Poitiers</option>
+                <option value="Toulouse">Toulouse</option>
+            </select><br /> <br>
+            <button type="submit" name="submit">Je m'inscris</button>
+        </form>
+    </div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js">
+    </script>
+    <script src="../Script/Co-Inscription.js">
+    </script>
+</body>
+</html>
