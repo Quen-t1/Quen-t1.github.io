@@ -107,6 +107,8 @@ p
 {
     display: flex;
     justify-content: center;
+    position: relative;
+    bottom: 10px;
 }
 h4
 {
@@ -212,4 +214,54 @@ li
     right: 5.3em;
     height: 8em;
     width: 10%;
+}
+.barre
+{
+    width: 12em;
+    height: 1em;
+    position: relative;
+    left: 3em;
+    bottom: 1.5em;
+    border: 1px solid #4b6396;
+}
+.prog1
+{
+    width: 25%;
+    height: 1em;
+    position: relative;
+    bottom: 1em;
+    background-color: #4b6396;
+}
+.prog2
+{
+    width: 75%;
+    height: 1em;
+    position: relative;
+    bottom: 1em;
+    background-color: #4b6396;
+}
+.prog3
+{
+    width: 75%;
+    height: 1em;
+    position: relative;
+    bottom: 1em;
+    background-color: #4b6396;
+}
+.barre
+{
+    width: 12em;
+    height: 1em;
+    position: relative;
+    left: 3em;
+    bottom: 1.5em;
+    border: 1px solid #4b6396;
+}
+.prog4
+{
+    width: 100%;
+    height: 1em;
+    position: relative;
+    bottom: 1em;
+    background-color: #4b6396;
 }
