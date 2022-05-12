@@ -58,3 +58,8 @@ body
     height: 14em;
     background: linear-gradient(#f7b33e,#fff838);
 }
+.commentaires
+{
+    display:block;
+    text-align: center;
+}
